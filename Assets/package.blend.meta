@@ -1,80 +1,16 @@
 fileFormatVersion: 2
-guid: ed3e4f5c436cbc94bb705dccf2c7a3be
+guid: 0a8abb4de1478114ab8066e5c1b5ebad
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Bush_001_proxy
-    100002: CarBlue_proxy
-    100004: CarGreen_proxy
-    100006: CarRed_proxy
-    100008: Cube
-    100010: LeafyTree_003_proxy_001
-    100012: //RootNode
-    100014: NurbsPath
-    100016: Plane
-    100018: Plane_001
-    100020: Plane_002
-    100022: Rock_001_proxy_001
-    400000: Bush_001_proxy
-    400002: CarBlue_proxy
-    400004: CarGreen_proxy
-    400006: CarRed_proxy
-    400008: Cube
-    400010: LeafyTree_003_proxy_001
-    400012: //RootNode
-    400014: NurbsPath
-    400016: Plane
-    400018: Plane_001
-    400020: Plane_002
-    400022: Rock_001_proxy_001
-    2100000: TheOneMat
-    2300000: Bush_001_proxy
-    2300002: CarBlue_proxy
-    2300004: CarGreen_proxy
-    2300006: CarRed_proxy
-    2300008: Cube
-    2300010: LeafyTree_003_proxy_001
-    2300012: NurbsPath
-    2300014: Plane
-    2300016: Plane_001
-    2300018: Plane_002
-    2300020: Rock_001_proxy_001
-    3300000: Bush_001_proxy
-    3300002: CarBlue_proxy
-    3300004: CarGreen_proxy
-    3300006: CarRed_proxy
-    3300008: Cube
-    3300010: LeafyTree_003_proxy_001
-    3300012: NurbsPath
-    3300014: Plane
-    3300016: Plane_001
-    3300018: Plane_002
-    3300020: Rock_001_proxy_001
-    4300000: NurbsPath
-    4300002: Cube
-    4300004: Plane_002
-    4300006: Plane_001
-    4300008: Plane
-    4300010: Bush_001_proxy
-    4300012: CarBlue_proxy
-    4300014: CarGreen_proxy
-    4300016: CarRed_proxy
-    4300018: LeafyTree_003_proxy_001
-    4300020: Rock_001_proxy_001
-    6400000: Bush_001_proxy
-    6400002: CarBlue_proxy
-    6400004: CarGreen_proxy
-    6400006: CarRed_proxy
-    6400008: Cube
-    6400010: LeafyTree_003_proxy_001
-    6400012: NurbsPath
-    6400014: Plane
-    6400016: Plane_001
-    6400018: Plane_002
-    6400020: Rock_001_proxy_001
+    100000: //RootNode
+    400000: //RootNode
+    2100000: unnamed
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cube
     7400000: Default Take
     9500000: //RootNode
-    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -108,7 +44,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
