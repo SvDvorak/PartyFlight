@@ -15,8 +15,8 @@ public class FlightControls : MonoBehaviour
     public void Update()
     {
         RaycastHit hitInfo;
-        var ray = new Ray(transform.position, transform.rotation * new Vector3(0, -1, 1));
-        Debug.DrawRay(ray.origin, ray.direction*2, Color.red);
+        var planeYRotation = Quaternion.Euler(0, transform.rotation.eulerAngles.y, 0);
+        var ray = new Ray(transform.position, planeYRotation * new Vector3(0, -1, 1));
         var hasHitGround = Physics.Raycast(ray, out hitInfo);
         if (hasHitGround)
         {
