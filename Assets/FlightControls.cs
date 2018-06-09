@@ -6,6 +6,10 @@ public class FlightControls : MonoBehaviour
     public GameObject TargetReticule;
     public GameObject PackageTemplate;
     public Transform DropPoint;
+    public float RotateStrength;
+
+    private int _speedMultiplier;
+    public float _multiplierChange;
 
     public void Start()
     {
@@ -29,6 +33,16 @@ public class FlightControls : MonoBehaviour
             package.GetComponent<PackageFlight>().Target = TargetReticule.transform.position;
             Debug.Log("Dropped");
         }
+
+        if (Input.GetButtonDown("RevUp"))
+        {
+            _speedMultiplier = Mathf.Clamp(_speedMultiplier + 1, 1, 4);
+        }
+
+        if (Input.GetButtonDown("RevDown"))
+        {
+            _speedMultiplier = Mathf.Clamp(_speedMultiplier - 1, 1, 4);
+        }
     }
 
     public void FixedUpdate()
@@ -36,8 +50,9 @@ public class FlightControls : MonoBehaviour
         var pitch = Input.GetAxis("Pitch");
         var yaw = Input.GetAxis("Yaw") * 0.5f;
         var roll = Input.GetAxis("Roll");
+        RotateStrength = Mathf.Abs(pitch) + Mathf.Abs(yaw) + Mathf.Abs(roll);
         transform.Rotate(pitch, yaw, roll);
 
-        transform.Translate(0, 0, Speed, Space.Self);
+        transform.Translate(0, 0, Speed*_speedMultiplier*_multiplierChange, Space.Self);
     }
 }
