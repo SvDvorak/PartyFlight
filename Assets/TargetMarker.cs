@@ -35,7 +35,9 @@ public class TargetMarker : MonoBehaviour
             PlaceCorner(_corners[3], Vector3.forward + Vector3.left, 90);
         }
 
-        Collider.size = new Vector3(Size + 0.1f, 2, Size + 0.1f) * 2f;
+        var colliderHeight = 10;
+        Collider.size = new Vector3(Size + 0.1f, colliderHeight, Size + 0.1f) * 2f;
+        Collider.center = new Vector3(0, colliderHeight, 0);
 
         RaycastHit hitInfo;
         if (Physics.Raycast(new Ray(transform.position, Vector3.down), out hitInfo))
@@ -49,5 +51,10 @@ public class TargetMarker : MonoBehaviour
     {
         corner.localPosition = direction * Size * _sizeAnimation;
         corner.localRotation = Quaternion.Euler(0, rotation, 0);
+    }
+
+    public void PackageCollided()
+    {
+        Debug.Log("SCORED!");
     }
 }

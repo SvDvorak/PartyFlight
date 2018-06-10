@@ -12,10 +12,12 @@ public class FlightControls : MonoBehaviour
     public float MultiplierChange;
     private int _speedMultiplier;
     private Vector3 _cameraPositionInitial;
+    private GameObject _packageRoot;
 
     public void Start()
     {
         _cameraPositionInitial = CameraPosition.transform.localPosition;
+        _packageRoot = new GameObject("PackageRoot");
     }
 
     public void Update()
@@ -23,7 +25,7 @@ public class FlightControls : MonoBehaviour
         RaycastHit hitInfo;
         var planeYRotation = Quaternion.Euler(0, transform.rotation.eulerAngles.y, 0);
         var ray = new Ray(transform.position, planeYRotation * new Vector3(0, -1, 1));
-        var hasHitGround = Physics.Raycast(ray, out hitInfo);
+        var hasHitGround = Physics.Raycast(ray, out hitInfo, Mathf.Infinity, LayerMask.GetMask("Ground"));
         if (hasHitGround)
         {
             TargetReticule.transform.position = hitInfo.point;
@@ -31,7 +33,7 @@ public class FlightControls : MonoBehaviour
 
         if (Input.GetButtonDown("Drop"))
         {
-            var package = Instantiate(PackageTemplate, DropPoint.position, Quaternion.identity, transform.parent);
+            var package = Instantiate(PackageTemplate, DropPoint.position, Quaternion.identity, _packageRoot.transform);
             package.GetComponent<PackageFlight>().Target = TargetReticule.transform.position;
             Debug.Log("Dropped");
         }
