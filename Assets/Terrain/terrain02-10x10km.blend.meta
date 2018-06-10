@@ -1,0 +1,233 @@
+fileFormatVersion: 2
+guid: d2626f03ebf334946b6c8082626d514d
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: forest
+    100002: forest-copy
+    100004: road-asphalt1
+    100006: road-dirt1a
+    100008: road-dirt1b
+    100010: road-dirt1c
+    100012: road-dirt2a
+    100014: road-dirt3a
+    100016: //RootNode
+    100018: terrain02-10x10km
+    100020: terrain02-10x10km_001
+    100022: terrain02-10x10km_003
+    100024: asphalt
+    100026: asphalt-segment
+    100028: path-road-asphalt1
+    100030: path-road-dirt1a
+    100032: path-road-dirt1b
+    100034: path-road-dirt1c
+    100036: path-road-dirt2a
+    100038: path-road-dirt3a
+    100040: dirt-sEgment
+    100042: dirt-sEgment_001
+    100044: Cube
+    100046: Cube_001
+    100048: Cube_002
+    100050: Cube_003
+    100052: Cube_004
+    100054: Cube_005
+    100056: Cube_006
+    400000: forest
+    400002: forest-copy
+    400004: road-asphalt1
+    400006: road-dirt1a
+    400008: road-dirt1b
+    400010: road-dirt1c
+    400012: road-dirt2a
+    400014: road-dirt3a
+    400016: //RootNode
+    400018: terrain02-10x10km
+    400020: terrain02-10x10km_001
+    400022: terrain02-10x10km_003
+    400024: asphalt
+    400026: asphalt-segment
+    400028: path-road-asphalt1
+    400030: path-road-dirt1a
+    400032: path-road-dirt1b
+    400034: path-road-dirt1c
+    400036: path-road-dirt2a
+    400038: path-road-dirt3a
+    400040: dirt-sEgment
+    400042: dirt-sEgment_001
+    400044: Cube
+    400046: Cube_001
+    400048: Cube_002
+    400050: Cube_003
+    400052: Cube_004
+    400054: Cube_005
+    400056: Cube_006
+    2100000: Material
+    2100002: unnamed
+    2300000: forest
+    2300002: forest-copy
+    2300004: road-asphalt1
+    2300006: road-dirt1a
+    2300008: road-dirt1b
+    2300010: road-dirt1c
+    2300012: road-dirt2a
+    2300014: road-dirt3a
+    2300016: terrain02-10x10km
+    2300018: terrain02-10x10km_001
+    2300020: terrain02-10x10km_003
+    2300022: asphalt
+    2300024: asphalt-segment
+    2300026: path-road-asphalt1
+    2300028: path-road-dirt1a
+    2300030: path-road-dirt1b
+    2300032: path-road-dirt1c
+    2300034: path-road-dirt2a
+    2300036: path-road-dirt3a
+    2300038: dirt-sEgment
+    2300040: dirt-sEgment_001
+    2300042: Cube
+    2300044: Cube_001
+    2300046: Cube_002
+    2300048: Cube_003
+    2300050: Cube_004
+    2300052: Cube_005
+    2300054: Cube_006
+    3300000: forest
+    3300002: forest-copy
+    3300004: road-asphalt1
+    3300006: road-dirt1a
+    3300008: road-dirt1b
+    3300010: road-dirt1c
+    3300012: road-dirt2a
+    3300014: road-dirt3a
+    3300016: terrain02-10x10km
+    3300018: terrain02-10x10km_001
+    3300020: terrain02-10x10km_003
+    3300022: asphalt
+    3300024: asphalt-segment
+    3300026: path-road-asphalt1
+    3300028: path-road-dirt1a
+    3300030: path-road-dirt1b
+    3300032: path-road-dirt1c
+    3300034: path-road-dirt2a
+    3300036: path-road-dirt3a
+    3300038: dirt-sEgment
+    3300040: dirt-sEgment_001
+    3300042: Cube
+    3300044: Cube_001
+    3300046: Cube_002
+    3300048: Cube_003
+    3300050: Cube_004
+    3300052: Cube_005
+    3300054: Cube_006
+    4300000: forest-copy
+    4300002: terrain02-10x10km_003
+    4300004: forest
+    4300006: terrain02-10x10km_001
+    4300008: road-dirt2a
+    4300010: terrain02-10x10km
+    4300012: road-dirt3a
+    4300014: road-dirt1b
+    4300016: road-dirt1c
+    4300018: road-dirt1a
+    4300020: road-asphalt1
+    4300022: asphalt-segment
+    4300024: path-road-dirt2a
+    4300026: path-road-dirt3a
+    4300028: path-road-dirt1b
+    4300030: path-road-dirt1c
+    4300032: path-road-dirt1a
+    4300034: path-road-asphalt1
+    4300036: asphalt
+    4300038: dirt-sEgment
+    4300040: dirt-sEgment_001
+    4300042: Cube_006
+    4300044: Cube_005
+    4300046: Cube_004
+    4300048: Cube_003
+    4300050: Cube_002
+    4300052: Cube_001
+    4300054: Cube
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
