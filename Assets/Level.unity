@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -89,7 +89,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000002, guid: 41249e24f38a9564392c0add86908690,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -178,7 +179,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1001 &1614631918
+--- !u!1001 &298164601
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -307,6 +308,62 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ed3e4f5c436cbc94bb705dccf2c7a3be, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ed3e4f5c436cbc94bb705dccf2c7a3be, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ed3e4f5c436cbc94bb705dccf2c7a3be, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300004, guid: ed3e4f5c436cbc94bb705dccf2c7a3be, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 001e25bd9caad5449abc13723fbb0232, type: 2}
+    - target: {fileID: 2300000, guid: ed3e4f5c436cbc94bb705dccf2c7a3be, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 001e25bd9caad5449abc13723fbb0232, type: 2}
+    - target: {fileID: 2300010, guid: ed3e4f5c436cbc94bb705dccf2c7a3be, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 001e25bd9caad5449abc13723fbb0232, type: 2}
+    - target: {fileID: 2300016, guid: ed3e4f5c436cbc94bb705dccf2c7a3be, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 001e25bd9caad5449abc13723fbb0232, type: 2}
+    - target: {fileID: 2300014, guid: ed3e4f5c436cbc94bb705dccf2c7a3be, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 001e25bd9caad5449abc13723fbb0232, type: 2}
+    - target: {fileID: 2300018, guid: ed3e4f5c436cbc94bb705dccf2c7a3be, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 001e25bd9caad5449abc13723fbb0232, type: 2}
+    - target: {fileID: 2300008, guid: ed3e4f5c436cbc94bb705dccf2c7a3be, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 001e25bd9caad5449abc13723fbb0232, type: 2}
+    - target: {fileID: 2300020, guid: ed3e4f5c436cbc94bb705dccf2c7a3be, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 001e25bd9caad5449abc13723fbb0232, type: 2}
+    - target: {fileID: 2300002, guid: ed3e4f5c436cbc94bb705dccf2c7a3be, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 001e25bd9caad5449abc13723fbb0232, type: 2}
+    - target: {fileID: 2300012, guid: ed3e4f5c436cbc94bb705dccf2c7a3be, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 001e25bd9caad5449abc13723fbb0232, type: 2}
+    - target: {fileID: 2300006, guid: ed3e4f5c436cbc94bb705dccf2c7a3be, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 001e25bd9caad5449abc13723fbb0232, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ed3e4f5c436cbc94bb705dccf2c7a3be, type: 3}
   m_IsPrefabParent: 0

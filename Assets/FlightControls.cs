@@ -31,7 +31,7 @@ public class FlightControls : MonoBehaviour
 
         if (Input.GetButtonDown("Drop"))
         {
-            var package = Instantiate(PackageTemplate, DropPoint.position, Random.rotation, transform.parent);
+            var package = Instantiate(PackageTemplate, DropPoint.position, Quaternion.identity, transform.parent);
             package.GetComponent<PackageFlight>().Target = TargetReticule.transform.position;
             Debug.Log("Dropped");
         }
