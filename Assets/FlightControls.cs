@@ -6,14 +6,16 @@ public class FlightControls : MonoBehaviour
     public GameObject TargetReticule;
     public GameObject PackageTemplate;
     public Transform DropPoint;
+    public Transform CameraPosition;
     public float RotateStrength;
 
+    public float MultiplierChange;
     private int _speedMultiplier;
-    public float _multiplierChange;
+    private Vector3 _cameraPositionInitial;
 
     public void Start()
     {
-
+        _cameraPositionInitial = CameraPosition.transform.localPosition;
     }
 
     public void Update()
@@ -29,7 +31,7 @@ public class FlightControls : MonoBehaviour
 
         if (Input.GetButtonDown("Drop"))
         {
-            var package = Instantiate(PackageTemplate, DropPoint.position, Random.rotation, transform.parent);
+            var package = Instantiate(PackageTemplate, DropPoint.position, Quaternion.identity, transform.parent);
             package.GetComponent<PackageFlight>().Target = TargetReticule.transform.position;
             Debug.Log("Dropped");
         }
@@ -53,6 +55,8 @@ public class FlightControls : MonoBehaviour
         RotateStrength = Mathf.Abs(pitch) + Mathf.Abs(yaw) + Mathf.Abs(roll);
         transform.Rotate(pitch, yaw, roll);
 
-        transform.Translate(0, 0, Speed*_speedMultiplier*_multiplierChange, Space.Self);
+        transform.Translate(0, 0, Speed*_speedMultiplier*MultiplierChange, Space.Self);
+
+        CameraPosition.transform.localPosition = _cameraPositionInitial - new Vector3(0, pitch*3, 0);
     }
 }

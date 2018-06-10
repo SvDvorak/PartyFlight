@@ -26,6 +26,10 @@ ModelImporter:
     4300002: NurbsPath
     4300004: Cube
     4300006: Mark-10x10km
+    6400000: Cube
+    6400002: Cube_001
+    6400004: Mark-10x10km
+    6400006: NurbsPath
     7400000: Default Take
     9500000: //RootNode
     2186277476908879412: ImportLogs
@@ -62,7 +66,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1

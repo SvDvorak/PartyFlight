@@ -32,20 +32,6 @@ ModelImporter:
     100052: Cube_004
     100054: Cube_005
     100056: Cube_006
-    100058: Cube_007
-    100060: Cube_008
-    100062: Circle
-    100064: Circle_001
-    100066: Circle_002
-    100068: Circle_003
-    100070: Cube_009
-    100072: Cube_010
-    100074: Cube_011
-    100076: Cube_012
-    100078: Cube_013
-    100080: Cube_014
-    100082: Cube_015
-    100084: Cube_016
     400000: forest
     400002: forest-copy
     400004: road-asphalt1
@@ -75,20 +61,6 @@ ModelImporter:
     400052: Cube_004
     400054: Cube_005
     400056: Cube_006
-    400058: Cube_007
-    400060: Cube_008
-    400062: Circle
-    400064: Circle_001
-    400066: Circle_002
-    400068: Circle_003
-    400070: Cube_009
-    400072: Cube_010
-    400074: Cube_011
-    400076: Cube_012
-    400078: Cube_013
-    400080: Cube_014
-    400082: Cube_015
-    400084: Cube_016
     2100000: Material
     2100002: unnamed
     2300000: forest
@@ -119,20 +91,6 @@ ModelImporter:
     2300050: Cube_004
     2300052: Cube_005
     2300054: Cube_006
-    2300056: Cube_007
-    2300058: Cube_008
-    2300060: Circle
-    2300062: Circle_001
-    2300064: Circle_002
-    2300066: Circle_003
-    2300068: Cube_009
-    2300070: Cube_010
-    2300072: Cube_011
-    2300074: Cube_012
-    2300076: Cube_013
-    2300078: Cube_014
-    2300080: Cube_015
-    2300082: Cube_016
     3300000: forest
     3300002: forest-copy
     3300004: road-asphalt1
@@ -161,20 +119,6 @@ ModelImporter:
     3300050: Cube_004
     3300052: Cube_005
     3300054: Cube_006
-    3300056: Cube_007
-    3300058: Cube_008
-    3300060: Circle
-    3300062: Circle_001
-    3300064: Circle_002
-    3300066: Circle_003
-    3300068: Cube_009
-    3300070: Cube_010
-    3300072: Cube_011
-    3300074: Cube_012
-    3300076: Cube_013
-    3300078: Cube_014
-    3300080: Cube_015
-    3300082: Cube_016
     4300000: forest-copy
     4300002: terrain02-10x10km_003
     4300004: forest
@@ -203,20 +147,16 @@ ModelImporter:
     4300050: Cube_002
     4300052: Cube_001
     4300054: Cube
-    4300056: Cube_008
-    4300058: Cube_007
-    4300060: Cube_016
-    4300062: Cube_015
-    4300064: Cube_014
-    4300066: Circle_003
-    4300068: Circle_002
-    4300070: Circle_001
-    4300072: Circle
-    4300074: Cube_013
-    4300076: Cube_012
-    4300078: Cube_011
-    4300080: Cube_010
-    4300082: Cube_009
+    6400000: Cube
+    6400002: Cube_001
+    6400004: Cube_002
+    6400006: Cube_003
+    6400008: Cube_004
+    6400010: Cube_005
+    6400012: Cube_006
+    6400014: terrain02-10x10km
+    6400016: terrain02-10x10km_001
+    6400018: terrain02-10x10km_003
     7400000: Default Take
     9500000: //RootNode
     2186277476908879412: ImportLogs
@@ -253,7 +193,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
